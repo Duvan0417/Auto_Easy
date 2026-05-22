@@ -1,5 +1,6 @@
 import time
 import random
+import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
@@ -13,6 +14,13 @@ USERNAME = "web.sistemas.dzf"
 PASSWORD = "Easynet123"
 BASE_URL = "https://easysales.com.co"
 PROXY = None
+
+# Carpeta donde se guardarán las descargas (cambia si quieres)
+DOWNLOAD_DIR = os.path.join(os.getcwd(), "descargas")
+os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+
+# Archivo donde se guardará la ruta del último Excel descargado
+LAST_EXCEL_FILE = os.path.join(DOWNLOAD_DIR, "ultimo_excel.txt")
 
 # =========== FUNCIONES DE COMPORTAMIENTO HUMANO ===========
 def human_delay(min_sec=0.3, max_sec=1.2):
@@ -36,12 +44,43 @@ def scroll_to_element(driver, element):
     driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element)
     human_delay(0.4, 0.9)
 
-# =========== FUNCIÓN PARA CREAR DRIVER (NUEVO CADA VEZ) ===========
+def wait_for_download(directory, timeout=60, file_extension=".xlsx"):
+    """
+    Espera a que aparezca un archivo con la extensión dada en el directorio.
+    Devuelve la ruta completa del archivo más reciente (que acaba de descargarse).
+    """
+    start_time = time.time()
+    last_files = set()
+    while time.time() - start_time < timeout:
+        # Buscar archivos con la extensión deseada (que no sean .crdownload)
+        files = [f for f in os.listdir(directory) if f.endswith(file_extension) and not f.endswith(".crdownload")]
+        if files:
+            # Obtener el más reciente por fecha de creación
+            latest = max([os.path.join(directory, f) for f in files], key=os.path.getctime)
+            # Asegurarse de que no haya cambiado en los últimos 2 segundos (descarga completa)
+            time.sleep(1)
+            if latest in last_files:
+                return latest
+            last_files.add(latest)
+        time.sleep(0.5)
+    raise TimeoutError(f"No se completó la descarga en {timeout} segundos")
+
+# =========== FUNCIÓN PARA CREAR DRIVER (CON DESCARGA AUTOMÁTICA) ===========
 def create_driver():
     options = uc.ChromeOptions()
     options.add_argument("--start-maximized")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-blink-features=AutomationControlled")
+    
+    # Configuración de descarga automática SIN preguntar
+    prefs = {
+        "download.default_directory": DOWNLOAD_DIR,
+        "download.prompt_for_download": False,
+        "download.directory_upgrade": True,
+        "safebrowsing.enabled": True
+    }
+    options.add_experimental_option("prefs", prefs)
+    
     if PROXY:
         options.add_argument(f'--proxy-server={PROXY}')
     
@@ -155,6 +194,7 @@ def run_flow(driver, wait, actions):
         actions.move_by_offset(0, 0).perform()
         human_delay(0.3, 0.7)
 
+        # ========== EXPORTAR A EXCEL ==========
         print("19. Exportar a Excel - clic en icono...")
         excel_icon = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".icon-file-excel")))
         excel_icon.click()
@@ -180,8 +220,16 @@ def run_flow(driver, wait, actions):
         print("24. MouseOut final (0,0)...")
         actions.move_by_offset(0, 0).perform()
 
-        print("Esperando 10 segundos para completar descarga...")
-        time.sleep(10)
+        # Esperar a que el archivo Excel aparezca en la carpeta
+        print("Esperando la descarga del archivo Excel...")
+        downloaded_file = wait_for_download(DOWNLOAD_DIR, timeout=60, file_extension=".xlsx")
+        print(f"Archivo descargado: {downloaded_file}")
+
+        # Guardar la ruta en un archivo de texto para que otro script pueda leerlo
+        with open(LAST_EXCEL_FILE, "w", encoding="utf-8") as f:
+            f.write(downloaded_file)
+        print(f"Ruta guardada en: {LAST_EXCEL_FILE}")
+
         print("Flujo completado exitosamente.")
         return True
 
