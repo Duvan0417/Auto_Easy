@@ -1,6 +1,7 @@
 import time
 import random
 import os
+import Read
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
@@ -258,3 +259,5 @@ else:
     print("Se agotaron los reintentos. El proceso falló.")
     if driver:
         driver.quit()
+
+Read.print_excel_info()
