@@ -1,7 +1,6 @@
 import time
 import random
 import os
-import Read
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
@@ -240,24 +239,40 @@ def run_flow(driver, wait, actions):
         print("Captura de pantalla guardada como 'error_screenshot.png'")
         return False
 
-# =========== REINTENTOS CON NUEVO DRIVER ===========
-MAX_RETRIES = 2
-driver = None
-for attempt in range(MAX_RETRIES):
-    print(f"\n--- Intento {attempt+1} de {MAX_RETRIES} ---")
-    driver = create_driver()
-    wait = WebDriverWait(driver, 20)
-    actions = ActionChains(driver)
+# =========== FUNCIÓN PRINCIPAL (para llamar desde FastAPI) ===========
+def main():
+    """
+    Función principal que ejecuta el flujo de descarga de Excel.
+    Retorna un diccionario con el resultado.
+    """
+    MAX_RETRIES = 2
+    driver = None
+    for attempt in range(MAX_RETRIES):
+        print(f"\n--- Intento {attempt+1} de {MAX_RETRIES} ---")
+        driver = create_driver()
+        wait = WebDriverWait(driver, 20)
+        actions = ActionChains(driver)
+        
+        if run_flow(driver, wait, actions):
+            # Éxito: cerramos el driver limpiamente
+            driver.quit()
+            return {
+                "status": "success",
+                "message": "AutoEasy completado correctamente",
+                "archivo_excel": LAST_EXCEL_FILE
+            }
+        else:
+            print(f"Intento {attempt+1} fallido. Cerrando navegador...")
+            driver.quit()
+            time.sleep(random.uniform(3, 6))
     
-    if run_flow(driver, wait, actions):
-        break
-    else:
-        print(f"Intento {attempt+1} fallido. Cerrando navegador...")
-        driver.quit()
-        time.sleep(random.uniform(3, 6))
-else:
-    print("Se agotaron los reintentos. El proceso falló.")
-    if driver:
-        driver.quit()
+    # Si se agotan los reintentos
+    return {
+        "status": "error",
+        "message": "Se agotaron los reintentos. El proceso falló."
+    }
 
-Read.print_excel_info()
+# =========== EJECUCIÓN DIRECTA (para pruebas) ===========
+if __name__ == "__main__":
+    resultado = main()
+    print(resultado)

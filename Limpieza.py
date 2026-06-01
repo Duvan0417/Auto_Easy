@@ -2,33 +2,64 @@ import os
 import time
 from pathlib import Path
 
-# Carpeta donde están los archivos Excel
-CARPETA = r"C:/Users/Janus I5/Desktop/easygestion/descargas"  # Cambia esta ruta si es necesario
 
-# Tiempo máximo permitido (en horas)
-HORAS_MAXIMAS = 24
+def limpiar_excels_antiguos(
+    carpeta=r"C:/Users/Janus I5/Desktop/easygestion/descargas",
+    horas_maximas=12
+):
+    """
+    Elimina archivos .xlsx antiguos de una carpeta.
 
-# Convertir horas a segundos
-TIEMPO_LIMITE = HORAS_MAXIMAS * 60 * 60
+    Args:
+        carpeta (str): Ruta de la carpeta.
+        horas_maximas (int): Tiempo máximo permitido en horas.
+    """
 
-# Tiempo actual
-ahora = time.time()
+    # Convertir horas a segundos
+    tiempo_limite = horas_maximas * 60 * 60
 
-# Buscar archivos Excel
-for archivo in Path(CARPETA).glob("*.xlsx"):
+    # Tiempo actual
+    ahora = time.time()
 
-    # Obtener última modificación
-    fecha_modificacion = archivo.stat().st_mtime
+    # Verificar si la carpeta existe
+    if not os.path.exists(carpeta):
+        return {
+            "status": "error",
+            "mensaje": f"La carpeta no existe: {carpeta}"
+        }
 
-    # Calcular antigüedad
-    antiguedad = ahora - fecha_modificacion
+    archivos_eliminados = []
+    errores = []
 
-    # Si supera el tiempo límite → eliminar
-    if antiguedad > TIEMPO_LIMITE:
-        try:
-            os.remove(archivo)
-            print(f"Archivo eliminado: {archivo.name}")
-        except Exception as e:
-            print(f"Error eliminando {archivo.name}: {e}")
+    # Buscar archivos Excel
+    for archivo in Path(carpeta).glob("*.xlsx"):
 
-print("Limpieza finalizada.")
+        # Obtener última modificación
+        fecha_modificacion = archivo.stat().st_mtime
+
+        # Calcular antigüedad
+        antiguedad = ahora - fecha_modificacion
+
+        # Eliminar si supera el límite
+        if antiguedad > tiempo_limite:
+            try:
+                os.remove(archivo)
+
+                archivos_eliminados.append(archivo.name)
+
+                print(f"Archivo eliminado: {archivo.name}")
+
+            except Exception as e:
+                errores.append({
+                    "archivo": archivo.name,
+                    "error": str(e)
+                })
+
+                print(f"Error eliminando {archivo.name}: {e}")
+
+    return {
+        "status": "ok",
+        "archivos_eliminados": archivos_eliminados,
+        "errores": errores,
+        "mensaje": "Limpieza finalizada."
+    }
