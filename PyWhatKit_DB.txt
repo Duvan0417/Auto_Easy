@@ -1,0 +1,554 @@
+Date: 24/6/2026
+Time: 13:48
+Phone Number: +573207590982
+Message: Hola, esto es un saludo automático desde Python 🐍
+--------------------
+Date: 24/6/2026
+Time: 13:51
+Phone Number: +573207590982
+Message: Hola mundo
+--------------------
+Date: 24/6/2026
+Time: 13:52
+Phone Number: +573207590982
+Message: Hola mundo
+--------------------
+Date: 24/6/2026
+Time: 13:55
+Phone Number: +573207590982
+Message: Hola mundo
+--------------------
+Date: 24/6/2026
+Time: 15:19
+Phone Number: +573207590982
+Message: Hora de salida
+--------------------
+Date: 30/6/2026
+Time: 15:33
+Phone Number: +573207590982
+Message: Hora de salida
+--------------------
+Date: 1/7/2026
+Time: 11:34
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: 📊 Dashboard General - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:34
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Ranking_Asesores.png
+Caption: 📊 Ranking Asesores - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:37
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: 📊 Dashboard General - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:38
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Ranking_Asesores.png
+Caption: 📊 Ranking Asesores - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:44
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: 📊 Dashboard General - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:44
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Ranking_Asesores.png
+Caption: 📊 Ranking Asesores - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:45
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: 📊 Sanin - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:49
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: 📊 Dashboard General - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:50
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Ranking_Asesores.png
+Caption: 📊 Ranking Asesores - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:53
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: 📊 Dashboard General - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:54
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Ranking_Asesores.png
+Caption: 📊 Ranking Asesores - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:54
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: 📊 Sanin - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:55
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: 📊 Colombina Helados - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:56
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Clientes_Especiales.png
+Caption: 📊 Clientes Especiales - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 11:59
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\prueba_conexion.png
+Caption: 🔍 Prueba de conexión
+--------------------
+Date: 1/7/2026
+Time: 12:4
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 1/7/2026
+Time: 12:6
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: 📊 Dashboard General - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 12:6
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Ranking_Asesores.png
+Caption: 📊 Ranking Asesores - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 12:8
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 1/7/2026
+Time: 12:10
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: 📊 Dashboard General - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 12:10
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Ranking_Asesores.png
+Caption: 📊 Ranking Asesores - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 12:11
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: 📊 Sanin - Marzo 2025
+--------------------
+Date: 1/7/2026
+Time: 12:27
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 1/7/2026
+Time: 12:29
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 12:29
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 12:30
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 12:31
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 12:31
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 12:32
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 12:33
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 12:34
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:36
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 1/7/2026
+Time: 14:38
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:38
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:39
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:40
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:41
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:41
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:42
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:43
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:52
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 1/7/2026
+Time: 14:54
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:54
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:55
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:56
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:57
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:57
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:58
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 14:59
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:17
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 1/7/2026
+Time: 15:19
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:19
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:20
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:21
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:22
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:22
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:23
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:24
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:29
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 1/7/2026
+Time: 15:31
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:31
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:32
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:33
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:34
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:34
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:35
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:36
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:37
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:40
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 1/7/2026
+Time: 15:42
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:43
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:43
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:44
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:45
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:46
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:47
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 1/7/2026
+Time: 15:49
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:49
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 1/7/2026
+Time: 15:50
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 14:13
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 2/7/2026
+Time: 14:15
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 14:16
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 14:18
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 14:20
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 14:21
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 14:23
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 14:25
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 14:27
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 14:28
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------

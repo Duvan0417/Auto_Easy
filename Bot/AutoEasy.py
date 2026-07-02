@@ -1,6 +1,8 @@
 import time
 import random
 import os
+import tempfile
+import shutil
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
@@ -67,6 +69,10 @@ def wait_for_download(directory, timeout=60, file_extension=".xlsx"):
 
 # =========== FUNCIÓN PARA CREAR DRIVER (CON DESCARGA AUTOMÁTICA) ===========
 def create_driver():
+    # Crear un directorio temporal único para este driver
+    temp_dir = tempfile.mkdtemp(prefix="chromedriver_")
+    driver_path = os.path.join(temp_dir, "chromedriver.exe")
+    
     options = uc.ChromeOptions()
     options.add_argument("--start-maximized")
     options.add_argument("--no-sandbox")
@@ -83,8 +89,9 @@ def create_driver():
     
     if PROXY:
         options.add_argument(f'--proxy-server={PROXY}')
+        
+    driver = uc.Chrome(options=options, user_data_dir=temp_dir)
     
-    driver = uc.Chrome(options=options, version_main=148)
     stealth(driver,
             languages=["es-ES", "es"],
             vendor="Google Inc.",

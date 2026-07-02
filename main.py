@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-import Read
-import Limpieza
-import AutoEasy
+import Etl.Read as Read
+import descargas.Limpieza as Limpieza
+import Bot.AutoEasy as AutoEasy
 
 app = FastAPI()
 
