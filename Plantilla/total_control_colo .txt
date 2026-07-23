@@ -1,23 +1,26 @@
-SELECT 
-    T2."DocDate" AS "Fecha Venta",
-    T0."CardCode" AS "CodigoCliente", 
-    T1."SlpCode" AS "CodigoVendedor", 
-    T1."ItemCode" AS "CodigoProducto", 
-    T0."DocNum" AS "Documento", 
-    T1."Quantity" AS "Cantidad", 
-    T1."Price" AS "Valor",
-    '1' AS "Tipo", 
-    T1."GrossBuyPr", 
-    T1."unitMsr",
-    T1."LineTotal" * -1 AS "LineTotalNC", 
-    T0."DocTotal"
-FROM ORIN T0  
-INNER JOIN RIN1 T1 ON T0."DocEntry" = T1."DocEntry" 
-INNER JOIN OINV T2 ON T1."BaseEntry" = T2."DocEntry" 
-LEFT JOIN OITM T3 ON T3."ItemCode" = T1."ItemCode"
-WHERE 
-    T2."DocDate" >= [%0] 
-    AND T0."DocType" = 'I'
-    AND T2."DocDate" <= [%1] 
-    AND T0."CANCELED" = 'N'
-    AND T3."CardCode" IN ('P-890301163')
+SELECT SUM(DZ."Total") AS "Totales De Control"
+FROM (
+    -- Facturas de venta
+    SELECT SUM(T1."LineTotal") AS "Total"
+    FROM OINV T0
+    INNER JOIN INV1 T1 ON T0."DocEntry" = T1."DocEntry"
+    LEFT JOIN OITM T2 ON T2."ItemCode" = T1."ItemCode"
+    WHERE T0."DocDate" >= [%0] 
+      AND T0."DocDate" <= [%1] 
+      AND T0."CANCELED" = 'N' 
+      AND T0."DocType" = 'I'
+      AND T2."CardCode" IN ('P-890301163')
+
+    UNION ALL
+
+    SELECT SUM(RIN1."LineTotal" * -1) AS "Total"
+    FROM ORIN NC
+    INNER JOIN RIN1 RIN1 ON NC."DocEntry" = RIN1."DocEntry"
+    INNER JOIN OINV INV ON RIN1."BaseEntry" = INV."DocEntry"
+    LEFT JOIN OITM T2 ON T2."ItemCode" = RIN1."ItemCode"  
+    WHERE INV."DocDate" >= [%0]
+      AND INV."DocDate" <= [%1]
+      AND NC."CANCELED" = 'N' 
+      AND NC."DocType" = 'I'
+      AND T2."CardCode" IN ('P-890301163')
+) DZ

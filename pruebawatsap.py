@@ -6,7 +6,7 @@ import pywhatkit as kit
 from datetime import datetime
 import pandas as pd
 import inspect
-from PIL import Image   # <-- Asegúrate de tener Pillow instalado
+from PIL import Image
 
 # ================= CONFIGURACIÓN =================
 ARCHIVO_EXCEL = r"C:/Users/Janus I5/Desktop/easygestion/Plantilla/Ventas_Marzo_Informe_Automatico.xlsx"

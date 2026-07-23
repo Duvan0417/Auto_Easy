@@ -552,3 +552,480 @@ Phone Number: +573207590982
 Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
 Caption: Alimentos Polar - Julio 2026
 --------------------
+Date: 2/7/2026
+Time: 19:5
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 2/7/2026
+Time: 19:7
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 19:8
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 19:11
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 2/7/2026
+Time: 19:13
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 19:14
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 19:16
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 19:18
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 19:19
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 19:21
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 19:23
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 19:25
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 2/7/2026
+Time: 19:26
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 3/7/2026
+Time: 12:30
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 3/7/2026
+Time: 12:32
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 3/7/2026
+Time: 12:33
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 3/7/2026
+Time: 12:35
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 3/7/2026
+Time: 12:37
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 3/7/2026
+Time: 12:38
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 6/7/2026
+Time: 19:30
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 6/7/2026
+Time: 19:32
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 6/7/2026
+Time: 19:33
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 6/7/2026
+Time: 19:35
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 6/7/2026
+Time: 19:37
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 6/7/2026
+Time: 19:38
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 6/7/2026
+Time: 19:40
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 6/7/2026
+Time: 19:42
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 6/7/2026
+Time: 19:44
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 6/7/2026
+Time: 19:45
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 12:19
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 7/7/2026
+Time: 12:21
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 12:22
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:5
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 7/7/2026
+Time: 19:7
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:8
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:11
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 7/7/2026
+Time: 19:13
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:14
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:16
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:18
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:19
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:21
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:23
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:25
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 7/7/2026
+Time: 19:26
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 10/7/2026
+Time: 19:0
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 10/7/2026
+Time: 19:2
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 10/7/2026
+Time: 19:3
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 10/7/2026
+Time: 19:5
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 10/7/2026
+Time: 19:7
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 10/7/2026
+Time: 19:9
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 10/7/2026
+Time: 19:10
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 10/7/2026
+Time: 19:12
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 10/7/2026
+Time: 19:14
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 10/7/2026
+Time: 19:15
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 16/7/2026
+Time: 19:14
+Phone Number: +573207590982
+Message: Prueba de conectividad
+--------------------
+Date: 16/7/2026
+Time: 19:16
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 16/7/2026
+Time: 19:17
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 16/7/2026
+Time: 19:19
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 16/7/2026
+Time: 19:21
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 16/7/2026
+Time: 19:23
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 16/7/2026
+Time: 19:24
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 16/7/2026
+Time: 19:26
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 16/7/2026
+Time: 19:28
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 16/7/2026
+Time: 19:29
+Phone Number: +573207590982
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:13
+Group ID: Cd7jmsC2Ksg4ERDIS1KilR
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:15
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:18
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:22
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:26
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:32
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:34
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:39
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:43
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:50
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 14:55
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 15:0
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 15:5
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 15:12
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 19:11
+Group ID: Ls1TVXkC7Gw8NJ7ltI0djv
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 21/7/2026
+Time: 19:23
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------

@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 import Etl.Read as Read
-import descargas.Limpieza as Limpieza
+import Etl.descargas.Limpieza as Limpieza
 import Bot.AutoEasy as AutoEasy
+import Envio as Envio
 
 app = FastAPI()
 
@@ -19,6 +20,11 @@ def actualizar():
 def limpiar():
     """Ejecuta solo la limpieza de excels antiguos (tercer paso)"""
     return Limpieza.limpiar_excels_antiguos()
+
+@app.get("/Bot/enviar")
+def enviar():
+    """Ejecuta solo el envío del informe (cuarto paso)"""
+    return Envio.enviar_imagenes()
 
 @app.get("/Bot/proceso_completo")
 def proceso_completo():
@@ -54,5 +60,12 @@ def proceso_completo():
         resultados["3. Limpieza"] = resultado3
     except Exception as e:
         resultados["3. Limpieza"] = f"Error: {str(e)}"
-
+    
+    # Paso 4: Envio 
+    '''try:
+        resultado4 = Envio.enviar_imagenes()
+        resultados["4. Envio"] = resultado4
+    except Exception as e:
+        resultados["4. Envio"] = f"Error: {str(e)}"
+    '''
     return resultados

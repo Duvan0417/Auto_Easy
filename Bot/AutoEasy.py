@@ -90,7 +90,7 @@ def create_driver():
     if PROXY:
         options.add_argument(f'--proxy-server={PROXY}')
         
-    driver = uc.Chrome(options=options, user_data_dir=temp_dir)
+    driver = uc.Chrome(options=options, user_data_dir=temp_dir, version_main=150)
     
     stealth(driver,
             languages=["es-ES", "es"],
