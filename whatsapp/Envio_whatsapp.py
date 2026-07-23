@@ -12,18 +12,17 @@ import re
 # ================= CONFIGURACIÓN =================
 ARCHIVO_EXCEL = r"C:/Users/Janus I5/Desktop/easygestion/Plantilla/Ventas_Marzo_Informe_Automatico.xlsx"
 
-# Diccionario que asigna cada hoja a un destino (puede ser número de teléfono individual o ID de grupo)
-# Ejemplo: "Dashboard General": "+573207590982" (individual) o "Mi Grupo": "1234567890-123456@g.us" (grupo)
+
 '''DESTINOS_POR_HOJA = {
-    "Dashboard General": "+573207590982",  # Cambia por el destino real
-    "Detalle Asesores": "+573211112222",
-    "Sanin": "+573213334444",
-    "Casa Luker": "+573215556666",
-    "Colombina": "+573217778888",
-    "Tecnoquimicas": "+573219990000",
-    "Brinsa": "+573221112222",
-    "Colombina Helados": "+573223334444",
-    "Alimentos Polar": "+573225556666"
+    "Dashboard General": "+573207590982",  
+    "Detalle Asesores": "",
+    "Sanin": "",
+    "Casa Luker": "",
+    "Colombina": "",
+    "Tecnoquimicas": "",
+    "Brinsa": "",
+    "Colombina Helados": "",
+    "Alimentos Polar": ""
 }'''
 
 DESTINOS_POR_HOJA = {
