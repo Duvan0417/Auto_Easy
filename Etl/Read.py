@@ -1,10 +1,16 @@
 import pandas as pd
 from openpyxl import load_workbook
 import os
+from pathlib import Path
+
+# Raíz del proyecto (carpeta que contiene Etl/), independiente del cwd desde
+# donde se lance el proceso (importante para Docker/servicios/systemd).
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 
 def actualizar_reporte_ventas(
-    ruta_txt="C:/Users/Janus I5/Desktop/easygestion/descargas/ultimo_excel.txt",
-    archivo_informe="C:/Users/Janus I5/Desktop/easygestion/Plantilla/Ventas_Marzo_Informe_Automatico.xlsx",
+    ruta_txt=None,
+    archivo_informe=None,
     hoja_datos="Datos"
 ):
     """
@@ -16,7 +22,21 @@ def actualizar_reporte_ventas(
         * Si no coincide pero los primeros 4 caracteres son dígitos (código),
           busca ese código en los datos de ventas, actualiza el nombre y los valores.
         * Si no se encuentra ni por nombre ni por código, coloca 0 en ventas y facturas.
+
+    ruta_txt / archivo_informe: si no se pasan, se resuelven (en este orden)
+    desde las env vars EASYGESTION_ULTIMO_EXCEL_TXT / EASYGESTION_INFORME_XLSX,
+    o si no están definidas, relativas a la raíz del proyecto. Esto permite
+    apuntar a otra ubicación (p. ej. un volumen montado) en Docker sin tocar
+    el código.
     """
+    ruta_txt = ruta_txt or os.environ.get(
+        "EASYGESTION_ULTIMO_EXCEL_TXT",
+        str(BASE_DIR / "descargas" / "ultimo_excel.txt"),
+    )
+    archivo_informe = archivo_informe or os.environ.get(
+        "EASYGESTION_INFORME_XLSX",
+        str(BASE_DIR / "Plantilla" / "Ventas_Marzo_Informe_Automatico.xlsx"),
+    )
     # 1. Leer ruta del archivo de ventas desde el TXT
     try:
         with open(ruta_txt, "r", encoding="utf-8") as f:

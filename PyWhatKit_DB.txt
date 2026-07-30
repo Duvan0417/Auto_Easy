@@ -1029,3 +1029,285 @@ Group ID: KsrzDWeRDpLGK0TTJiJItV
 Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
 Caption: Detalle Asesores - Julio 2026
 --------------------
+Date: 28/7/2026
+Time: 12:47
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:21
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:23
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:25
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:27
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:28
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:30
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:32
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:34
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:51
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:53
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 14:55
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 15:4
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 15:6
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 15:8
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 15:10
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 15:11
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 15:13
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 15:15
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 15:17
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 15:18
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 17:3
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 17:5
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 28/7/2026
+Time: 17:7
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 11:27
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 11:29
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: Detalle Asesores - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 11:30
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: Sanin - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 11:32
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: Casa Luker - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 11:34
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: Colombina - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 11:36
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: Tecnoquimicas - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 11:37
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: Brinsa - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 11:39
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: Colombina Helados - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 11:41
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: Alimentos Polar - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 11:56
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: Dashboard General - Julio 2026
+--------------------
+Date: 30/7/2026
+Time: 12:50
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Dashboard_General.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 12:51
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 12:52
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Sanin.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 12:53
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Casa_Luker.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 12:53
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 12:54
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Tecnoquimicas.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 12:55
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Brinsa.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 12:56
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Colombina_Helados.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 12:57
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\Alimentos_Polar.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 13:4
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 13:5
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 13:53
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Envio_pywhatkit\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 13:53
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Envio_pywhatkit\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------

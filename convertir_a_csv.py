@@ -1,15 +1,23 @@
 import pandas as pd
 import os
+from pathlib import Path
+
+# Carpeta de origen/destino de los archivos DIZFRANCO. Por defecto se resuelve
+# bajo el Desktop del usuario actual (portable entre cuentas/equipos); se puede
+# apuntar a otra ubicación (p. ej. un volumen montado en Docker) con la env var.
+CARPETA_DIZFRANCO = os.environ.get(
+    "EASYGESTION_DIZFRANCO_DIR",
+    str(Path.home() / "Desktop" / "INFORMACION DIARIA" / "DIZFRANCO"),
+)
 
 rutas = [
-    
     {
-        "input": "C:/Users/Janus I5/Desktop/INFORMACION DIARIA/DIZFRANCO/Ventas.xlsx",
-        "output": "C:/Users/Janus I5/Desktop/INFORMACION DIARIA/DIZFRANCO/Ventas.csv"
+        "input": os.path.join(CARPETA_DIZFRANCO, "Ventas.xlsx"),
+        "output": os.path.join(CARPETA_DIZFRANCO, "Ventas.csv")
     },
     {
-        "input": "C:/Users/Janus I5/Desktop/INFORMACION DIARIA/DIZFRANCO/Devoluciones.xlsx",
-        "output": "C:/Users/Janus I5/Desktop/INFORMACION DIARIA/DIZFRANCO/Devoluciones.csv"
+        "input": os.path.join(CARPETA_DIZFRANCO, "Devoluciones.xlsx"),
+        "output": os.path.join(CARPETA_DIZFRANCO, "Devoluciones.csv")
     }
 ]
 

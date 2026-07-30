@@ -4,12 +4,17 @@ import pythoncom
 import win32com.client as win32
 import pywhatkit as kit
 from datetime import datetime
+from pathlib import Path
 import pandas as pd
 import inspect
 from PIL import Image
 
 # ================= CONFIGURACIÓN =================
-ARCHIVO_EXCEL = r"C:/Users/Janus I5/Desktop/easygestion/Plantilla/Ventas_Marzo_Informe_Automatico.xlsx"
+BASE_DIR = Path(__file__).resolve().parent
+ARCHIVO_EXCEL = os.environ.get(
+    "EASYGESTION_INFORME_XLSX",
+    str(BASE_DIR / "Plantilla" / "Ventas_Marzo_Informe_Automatico.xlsx"),
+)
 NUMERO_DESTINO = "+573207590982"
 HOJAS_A_ENVIAR = ["Dashboard General", "Detalle Asesores", "Sanin", "Casa Luker", 
                   "Colombina", "Tecnoquimicas", "Brinsa", "Colombina Helados", "Alimentos Polar"]

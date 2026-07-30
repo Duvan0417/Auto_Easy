@@ -2,18 +2,28 @@ import os
 import time
 from pathlib import Path
 
+# Raíz del proyecto (carpeta que contiene Etl/), independiente del cwd desde
+# donde se lance el proceso (importante para Docker/servicios/systemd).
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
 
 def limpiar_excels_antiguos(
-    carpeta=r"C:/Users/Janus I5/Desktop/easygestion/descargas",
+    carpeta=None,
     horas_maximas=12
 ):
     """
     Elimina archivos .xlsx antiguos de una carpeta.
 
     Args:
-        carpeta (str): Ruta de la carpeta.
+        carpeta (str): Ruta de la carpeta. Si no se pasa, se resuelve desde
+            la env var EASYSALES_DOWNLOAD_DIR, o si no está definida, relativa
+            a la raíz del proyecto (permite apuntar a un volumen montado en
+            Docker sin tocar el código).
         horas_maximas (int): Tiempo máximo permitido en horas.
     """
+    carpeta = carpeta or os.environ.get(
+        "EASYSALES_DOWNLOAD_DIR", str(BASE_DIR / "descargas")
+    )
 
     # Convertir horas a segundos
     tiempo_limite = horas_maximas * 60 * 60

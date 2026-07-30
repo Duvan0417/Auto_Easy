@@ -1,238 +1,153 @@
-import time
-import random
 import os
-import tempfile
-import shutil
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+import random
+import time
+from pathlib import Path
 
-import undetected_chromedriver as uc
-from selenium_stealth import stealth
+from playwright.sync_api import (
+    Locator,
+    Page,
+    TimeoutError as PlaywrightTimeoutError,
+    sync_playwright,
+)
+from playwright_stealth import Stealth
 
 # ================= CONFIGURACIÓN =================
-USERNAME = "web.sistemas.dzf"
-PASSWORD = "Easynet123"
-BASE_URL = "https://easysales.com.co"
-PROXY = None
+USERNAME = os.environ.get("EASYSALES_USERNAME", "web.sistemas.dzf")
+PASSWORD = os.environ.get("EASYSALES_PASSWORD", "Easynet123")
+BASE_URL = os.environ.get("EASYSALES_BASE_URL", "https://easysales.com.co")
+HEADLESS = os.environ.get("EASYSALES_HEADLESS", "false").lower() == "true"
+PROXY = os.environ.get("EASYSALES_PROXY")  # ej: "http://host:puerto"
 
-# Carpeta donde se guardarán las descargas (cambia si quieres)
-DOWNLOAD_DIR = os.path.join(os.getcwd(), "descargas")
-os.makedirs(DOWNLOAD_DIR, exist_ok=True)
+DEFAULT_TIMEOUT_MS = 20_000
+DOWNLOAD_TIMEOUT_MS = 60_000
+MAX_RETRIES = 2
+
+# Raíz del proyecto (carpeta que contiene Bot/), independiente del cwd desde
+# donde se lance el proceso (importante para Docker/servicios/systemd).
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Carpeta donde se guardarán las descargas (override con env var para Docker,
+# p. ej. montar un volumen en /data/descargas)
+DOWNLOAD_DIR = Path(os.environ.get("EASYSALES_DOWNLOAD_DIR", BASE_DIR / "descargas"))
+DOWNLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 # Archivo donde se guardará la ruta del último Excel descargado
-LAST_EXCEL_FILE = os.path.join(DOWNLOAD_DIR, "ultimo_excel.txt")
+LAST_EXCEL_FILE = DOWNLOAD_DIR / "ultimo_excel.txt"
 
-# =========== FUNCIONES DE COMPORTAMIENTO HUMANO ===========
-def human_delay(min_sec=0.3, max_sec=1.2):
-    time.sleep(random.uniform(min_sec, max_sec))
+ERROR_SCREENSHOT = Path(
+    os.environ.get("EASYSALES_ERROR_SCREENSHOT", BASE_DIR / "error_screenshot.png")
+)
 
-def human_type(element, text, delay_between_keys=0.05, random_variation=0.03):
-    element.clear()
-    for char in text:
-        element.send_keys(char)
-        time.sleep(random.uniform(delay_between_keys - random_variation,
-                                   delay_between_keys + random_variation))
+_STEALTH = Stealth(
+    navigator_languages_override=("es-ES", "es"),
+    navigator_vendor_override="Google Inc.",
+    navigator_platform_override="Win32",
+    webgl_vendor_override="Intel Inc.",
+    webgl_renderer_override="Intel Iris OpenGL Engine",
+)
 
-def human_click(driver, element):
-    actions = ActionChains(driver)
-    actions.move_to_element_with_offset(element, random.randint(-5, 5), random.randint(-5, 5))
-    actions.pause(random.uniform(0.1, 0.3))
-    actions.click()
-    actions.perform()
 
-def scroll_to_element(driver, element):
-    driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element)
-    human_delay(0.4, 0.9)
+def human_type(locator: Locator, text: str, delay_ms: int = 60) -> None:
+    """Escribe carácter a carácter con una demora variable, simulando tecleo humano."""
+    locator.click()
+    locator.fill("")
+    locator.press_sequentially(text, delay=delay_ms + random.randint(-20, 20))
 
-def wait_for_download(directory, timeout=60, file_extension=".xlsx"):
-    """
-    Espera a que aparezca un archivo con la extensión dada en el directorio.
-    Devuelve la ruta completa del archivo más reciente (que acaba de descargarse).
-    """
-    start_time = time.time()
-    last_files = set()
-    while time.time() - start_time < timeout:
-        # Buscar archivos con la extensión deseada (que no sean .crdownload)
-        files = [f for f in os.listdir(directory) if f.endswith(file_extension) and not f.endswith(".crdownload")]
-        if files:
-            # Obtener el más reciente por fecha de creación
-            latest = max([os.path.join(directory, f) for f in files], key=os.path.getctime)
-            # Asegurarse de que no haya cambiado en los últimos 2 segundos (descarga completa)
-            time.sleep(1)
-            if latest in last_files:
-                return latest
-            last_files.add(latest)
-        time.sleep(0.5)
-    raise TimeoutError(f"No se completó la descarga en {timeout} segundos")
 
-# =========== FUNCIÓN PARA CREAR DRIVER (CON DESCARGA AUTOMÁTICA) ===========
-def create_driver():
-    # Crear un directorio temporal único para este driver
-    temp_dir = tempfile.mkdtemp(prefix="chromedriver_")
-    driver_path = os.path.join(temp_dir, "chromedriver.exe")
-    
-    options = uc.ChromeOptions()
-    options.add_argument("--start-maximized")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    
-    # Configuración de descarga automática SIN preguntar
-    prefs = {
-        "download.default_directory": DOWNLOAD_DIR,
-        "download.prompt_for_download": False,
-        "download.directory_upgrade": True,
-        "safebrowsing.enabled": True
-    }
-    options.add_experimental_option("prefs", prefs)
-    
+def create_browser(playwright):
+    launch_args = ["--disable-blink-features=AutomationControlled"]
+    launch_kwargs = {"headless": HEADLESS, "args": launch_args}
     if PROXY:
-        options.add_argument(f'--proxy-server={PROXY}')
-        
-    driver = uc.Chrome(options=options, user_data_dir=temp_dir, version_main=150)
-    
-    stealth(driver,
-            languages=["es-ES", "es"],
-            vendor="Google Inc.",
-            platform="Win32",
-            webgl_vendor="Intel Inc.",
-            renderer="Intel Iris OpenGL Engine",
-            fix_hairline=True)
-    return driver
+        launch_kwargs["proxy"] = {"server": PROXY}
 
-# =========== EJECUCIÓN DEL FLUJO ===========
-def run_flow(driver, wait, actions):
+    browser = playwright.chromium.launch(**launch_kwargs)
+    context = browser.new_context(
+        viewport={"width": 1550, "height": 830},
+        locale="es-ES",
+        accept_downloads=True,
+    )
+    _STEALTH.apply_stealth_sync(context)
+    context.set_default_timeout(DEFAULT_TIMEOUT_MS)
+
+    page = context.new_page()
+    return browser, context, page
+
+
+def run_flow(page: Page) -> bool:
     try:
         print("1. Abriendo URL...")
-        driver.get(BASE_URL + "/easygestioneasysalesv3/")
-        human_delay(1.5, 2.5)
+        page.goto(f"{BASE_URL}/easygestioneasysalesv3/")
 
-        print("2. Configurando ventana...")
-        driver.set_window_size(1550, 830)
-        human_delay(0.5, 1.0)
+        print("2. Ingresando usuario...")
+        username_field = page.locator(".username")
+        human_type(username_field, USERNAME)
 
-        print("3. Ingresando usuario...")
-        username_field = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".username")))
-        scroll_to_element(driver, username_field)
-        human_click(driver, username_field)
-        human_type(username_field, USERNAME, delay_between_keys=0.06, random_variation=0.02)
-        human_delay(0.5, 1.0)
-
-        print("4. Ingresando contraseña...")
-        password_field = driver.find_element(By.ID, "userPassword")
-        scroll_to_element(driver, password_field)
-        human_click(driver, password_field)
+        print("3. Ingresando contraseña...")
+        password_field = page.locator("#userPassword")
         human_type(password_field, PASSWORD)
-        human_delay(0.5, 1.0)
 
-        print("5. Haciendo login...")
-        login_btn = driver.find_element(By.CSS_SELECTOR, ".btn")
-        scroll_to_element(driver, login_btn)
-        human_click(driver, login_btn)
-        human_delay(2.0, 3.5)
+        print("4. Haciendo login...")
+        page.locator(".btn").click()
 
-        print("6. Clic en icono Ventas...")
-        ventas_icon = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".icon-Ventas-01")))
-        scroll_to_element(driver, ventas_icon)
-        human_click(driver, ventas_icon)
-        human_delay(0.8, 1.5)
+        print("5. Clic en icono Ventas...")
+        page.locator(".icon-Ventas-01").click()
 
-        print("7. Submenú Ventas y pedidos...")
-        ventas_pedidos = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#accordion-body-5 > .ng-star-inserted:nth-child(1) .text")))
-        scroll_to_element(driver, ventas_pedidos)
-        human_click(driver, ventas_pedidos)
-        human_delay(1.0, 2.0)
+        print("6. Submenú Ventas y pedidos...")
+        page.locator("#accordion-body-5 > .ng-star-inserted:nth-child(1) .text").click()
 
-        print("8. Clic en filtro...")
-        filtro = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".filters-box:nth-child(4) > .form-control")))
-        scroll_to_element(driver, filtro)
-        human_click(driver, filtro)
-        human_delay(0.5, 1.0)
+        print("7. Clic en filtro...")
+        page.locator(".filters-box:nth-child(4) > .form-control").click()
 
-        print("9. Checkbox thead...")
-        check_thead = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "thead .width_no_cliente .easynet-check_icon")))
-        scroll_to_element(driver, check_thead)
-        human_click(driver, check_thead)
-        human_delay(0.5, 1.0)
+        print("8. Checkbox thead...")
+        page.locator("thead .width_no_cliente .easynet-check_icon").click()
 
-        print("10. Botón siguiente página...")
-        next_page_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".mr-auto")))
-        scroll_to_element(driver, next_page_btn)
-        human_click(driver, next_page_btn)
-        human_delay(0.8, 1.5)
+        print("9. Botón siguiente página...")
+        page.locator(".mr-auto").click()
 
-        print("11-15. Seleccionando 5 registros...")
-        wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".ng-star-inserted .width_no_cliente .easynet-check_icon")))
+        print("10-14. Seleccionando 5 registros...")
         registros_selectores = [
             ".ng-star-inserted:nth-child(1) > .width_no_cliente .easynet-check_icon",
             ".ng-star-inserted:nth-child(2) > .width_no_cliente .easynet-check_icon",
             ".ng-star-inserted:nth-child(3) > .width_no_cliente .easynet-check_icon",
             ".ng-star-inserted:nth-child(4) .easynet-check_icon",
-            ".ng-star-inserted > .width_no_cliente > .active > .easynet-check_icon"
+            ".ng-star-inserted > .width_no_cliente > .active > .easynet-check_icon",
         ]
         for idx, selector in enumerate(registros_selectores, 1):
             try:
-                registro = driver.find_element(By.CSS_SELECTOR, selector)
-                scroll_to_element(driver, registro)
-                human_click(driver, registro)
+                page.locator(selector).click()
                 print(f"   Registro {idx} seleccionado")
-                human_delay(0.3, 0.7)
-            except Exception as e:
+            except PlaywrightTimeoutError as e:
                 print(f"Error seleccionando {selector}: {e}")
 
-        print("16. Aceptar diálogo...")
-        aceptar_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".mat-dialog-actions > .modal-button-acept")))
-        scroll_to_element(driver, aceptar_btn)
-        aceptar_btn.click()
-        print("   Diálogo aceptado")
-        human_delay(1.5, 2.5)
+        print("15. Aceptar diálogo...")
+        page.locator(".mat-dialog-actions > .modal-button-acept").click()
 
-        print("17. Búsqueda definitiva...")
-        buscar_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".btn_search_definitive")))
-        scroll_to_element(driver, buscar_btn)
-        buscar_btn.click()
-        human_delay(1.5, 2.5)
+        print("16. Búsqueda definitiva...")
+        # El diálogo "Seleccionar usuarios" deja un botón .btn_search_definitive propio
+        # en el DOM mientras se cierra; se acota a <main> para evitar el duplicado.
+        page.locator("main .btn_search_definitive").click()
 
-        print("18. MouseOver/MouseOut en menú trigger...")
-        menu_trigger = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".mat-menu-trigger")))
-        actions.move_to_element(menu_trigger).perform()
-        human_delay(0.3, 0.7)
-        actions.move_by_offset(0, 0).perform()
-        human_delay(0.3, 0.7)
+        print("17. Abriendo menú de exportación...")
+        page.locator(".mat-menu-trigger").hover()
 
-        # ========== EXPORTAR A EXCEL ==========
-        print("19. Exportar a Excel - clic en icono...")
-        excel_icon = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".icon-file-excel")))
+        print("18. Exportar a Excel - clic en icono...")
+        excel_icon = page.locator(".icon-file-excel")
+        excel_icon.hover()
         excel_icon.click()
-        human_delay(0.5, 1.0)
 
-        print("20. MouseOver en icono Excel...")
-        actions.move_to_element(excel_icon).perform()
-        human_delay(0.3, 0.7)
+        print("19. Seleccionando opción de reporte...")
+        menu_item = page.locator(".cdk-focused > span")
+        menu_item.hover()
 
-        print("21. MouseOut (0,0)...")
-        actions.move_by_offset(0, 0).perform()
-        human_delay(0.3, 0.7)
+        print("20. Descargando reporte...")
+        with page.expect_download(timeout=DOWNLOAD_TIMEOUT_MS) as download_info:
+            menu_item.click()
+        download = download_info.value
 
-        print("22. Esperando elemento .cdk-focused > span...")
-        menu_item = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".cdk-focused > span")))
-        actions.move_to_element(menu_item).perform()
-        human_delay(0.4, 0.8)
-
-        print("23. Clic en opción de reporte...")
-        menu_item.click()
-        human_delay(0.5, 1.0)
-
-        print("24. MouseOut final (0,0)...")
-        actions.move_by_offset(0, 0).perform()
-
-        # Esperar a que el archivo Excel aparezca en la carpeta
-        print("Esperando la descarga del archivo Excel...")
-        downloaded_file = wait_for_download(DOWNLOAD_DIR, timeout=60, file_extension=".xlsx")
+        downloaded_file = os.path.join(DOWNLOAD_DIR, download.suggested_filename)
+        download.save_as(downloaded_file)
         print(f"Archivo descargado: {downloaded_file}")
 
-        # Guardar la ruta en un archivo de texto para que otro script pueda leerlo
         with open(LAST_EXCEL_FILE, "w", encoding="utf-8") as f:
             f.write(downloaded_file)
         print(f"Ruta guardada en: {LAST_EXCEL_FILE}")
@@ -242,44 +157,44 @@ def run_flow(driver, wait, actions):
 
     except Exception as e:
         print(f"ERROR en el paso actual: {e}")
-        driver.save_screenshot("error_screenshot.png")
-        print("Captura de pantalla guardada como 'error_screenshot.png'")
+        try:
+            page.screenshot(path=ERROR_SCREENSHOT, full_page=True)
+            print(f"Captura de pantalla guardada como '{ERROR_SCREENSHOT}'")
+        except Exception as screenshot_error:
+            print(f"No se pudo guardar la captura de pantalla: {screenshot_error}")
         return False
 
-# =========== FUNCIÓN PRINCIPAL (para llamar desde FastAPI) ===========
+
 def main():
     """
     Función principal que ejecuta el flujo de descarga de Excel.
     Retorna un diccionario con el resultado.
     """
-    MAX_RETRIES = 2
-    driver = None
-    for attempt in range(MAX_RETRIES):
-        print(f"\n--- Intento {attempt+1} de {MAX_RETRIES} ---")
-        driver = create_driver()
-        wait = WebDriverWait(driver, 20)
-        actions = ActionChains(driver)
-        
-        if run_flow(driver, wait, actions):
-            # Éxito: cerramos el driver limpiamente
-            driver.quit()
-            return {
-                "status": "success",
-                "message": "AutoEasy completado correctamente",
-                "archivo_excel": LAST_EXCEL_FILE
-            }
-        else:
-            print(f"Intento {attempt+1} fallido. Cerrando navegador...")
-            driver.quit()
-            time.sleep(random.uniform(3, 6))
-    
-    # Si se agotan los reintentos
+    with sync_playwright() as playwright:
+        for attempt in range(1, MAX_RETRIES + 1):
+            print(f"\n--- Intento {attempt} de {MAX_RETRIES} ---")
+            browser, context, page = create_browser(playwright)
+            try:
+                if run_flow(page):
+                    return {
+                        "status": "success",
+                        "message": "AutoEasy completado correctamente",
+                        "archivo_excel": str(LAST_EXCEL_FILE),
+                    }
+                print(f"Intento {attempt} fallido. Cerrando navegador...")
+            finally:
+                context.close()
+                browser.close()
+
+            if attempt < MAX_RETRIES:
+                time.sleep(random.uniform(3, 6))
+
     return {
         "status": "error",
-        "message": "Se agotaron los reintentos. El proceso falló."
+        "message": "Se agotaron los reintentos. El proceso falló.",
     }
 
-# =========== EJECUCIÓN DIRECTA (para pruebas) ===========
+
 if __name__ == "__main__":
     resultado = main()
     print(resultado)
