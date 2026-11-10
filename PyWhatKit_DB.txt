@@ -1311,3 +1311,369 @@ Group ID: KsrzDWeRDpLGK0TTJiJItV
 Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Envio_pywhatkit\whatsapp\Capturas_Excel\Detalle_Asesores.png
 Caption: 
 --------------------
+Date: 30/7/2026
+Time: 19:7
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 19:8
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 19:8
+Group ID: IO17qwaVukn1DscvMz4aUF
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Sanin.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 19:9
+Group ID: C40Txf4yFsh1S35rvcqQwR
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Casa_Luker.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 19:10
+Group ID: JyTY9GhkmRt7hAbme3lsam
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 19:11
+Group ID: Krgd8fPVbTXJjZXAtvji2I
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Tecnoquimicas.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 19:12
+Group ID: EPYMNhYTeDwBNo68Mi8eLa
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Brinsa.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 19:12
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina_Helados.png
+Caption: 
+--------------------
+Date: 30/7/2026
+Time: 19:13
+Group ID: IUPJUOEsz6C6F9p9tpke9d
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Alimentos_Polar.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 12:20
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 12:21
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 12:21
+Group ID: IO17qwaVukn1DscvMz4aUF
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Sanin.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 12:22
+Group ID: C40Txf4yFsh1S35rvcqQwR
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Casa_Luker.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 12:23
+Group ID: JyTY9GhkmRt7hAbme3lsam
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 12:24
+Group ID: Krgd8fPVbTXJjZXAtvji2I
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Tecnoquimicas.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 12:25
+Group ID: EPYMNhYTeDwBNo68Mi8eLa
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Brinsa.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 12:25
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina_Helados.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 12:26
+Group ID: IUPJUOEsz6C6F9p9tpke9d
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Alimentos_Polar.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 18:57
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 18:58
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 18:59
+Group ID: IO17qwaVukn1DscvMz4aUF
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Sanin.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 19:0
+Group ID: C40Txf4yFsh1S35rvcqQwR
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Casa_Luker.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 19:1
+Group ID: JyTY9GhkmRt7hAbme3lsam
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 19:1
+Group ID: Krgd8fPVbTXJjZXAtvji2I
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Tecnoquimicas.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 19:2
+Group ID: EPYMNhYTeDwBNo68Mi8eLa
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Brinsa.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 19:3
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina_Helados.png
+Caption: 
+--------------------
+Date: 31/7/2026
+Time: 19:4
+Group ID: IUPJUOEsz6C6F9p9tpke9d
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Alimentos_Polar.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 12:0
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 12:1
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 12:2
+Group ID: IO17qwaVukn1DscvMz4aUF
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Sanin.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 12:3
+Group ID: C40Txf4yFsh1S35rvcqQwR
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Casa_Luker.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 12:4
+Group ID: JyTY9GhkmRt7hAbme3lsam
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 12:4
+Group ID: Krgd8fPVbTXJjZXAtvji2I
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Tecnoquimicas.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 12:5
+Group ID: EPYMNhYTeDwBNo68Mi8eLa
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Brinsa.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 12:6
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina_Helados.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 12:7
+Group ID: IUPJUOEsz6C6F9p9tpke9d
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Alimentos_Polar.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:18
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:18
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:18
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:19
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:22
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:23
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:24
+Group ID: IO17qwaVukn1DscvMz4aUF
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Sanin.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:25
+Group ID: C40Txf4yFsh1S35rvcqQwR
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Casa_Luker.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:25
+Group ID: JyTY9GhkmRt7hAbme3lsam
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:26
+Group ID: Krgd8fPVbTXJjZXAtvji2I
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Tecnoquimicas.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:27
+Group ID: EPYMNhYTeDwBNo68Mi8eLa
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Brinsa.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:28
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina_Helados.png
+Caption: 
+--------------------
+Date: 3/8/2026
+Time: 19:29
+Group ID: IUPJUOEsz6C6F9p9tpke9d
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Alimentos_Polar.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 12:48
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 12:49
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 12:50
+Group ID: IO17qwaVukn1DscvMz4aUF
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Sanin.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 12:51
+Group ID: C40Txf4yFsh1S35rvcqQwR
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Casa_Luker.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 12:52
+Group ID: JyTY9GhkmRt7hAbme3lsam
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 12:52
+Group ID: Krgd8fPVbTXJjZXAtvji2I
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Tecnoquimicas.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 12:53
+Group ID: EPYMNhYTeDwBNo68Mi8eLa
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Brinsa.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 12:54
+Group ID: Lnqlkg5QOLyH584xiT3e17
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Colombina_Helados.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 12:55
+Group ID: IUPJUOEsz6C6F9p9tpke9d
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Alimentos_Polar.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 18:22
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------
+Date: 4/8/2026
+Time: 18:23
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Detalle_Asesores.png
+Caption: 
+--------------------
+Date: 5/8/2026
+Time: 12:17
+Group ID: KsrzDWeRDpLGK0TTJiJItV
+Image: C:\Users\Janus I5\Desktop\easygestion\whatsapp\Capturas_Excel\Dashboard_General.png
+Caption: 
+--------------------

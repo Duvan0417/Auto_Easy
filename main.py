@@ -60,12 +60,12 @@ def proceso_completo():
         resultados["3. Limpieza"] = resultado3
     except Exception as e:
         resultados["3. Limpieza"] = f"Error: {str(e)}"
-
+    """
     # Paso 4: Envio 
     try:
         resultado4 = Envio.enviar_imagenes()
         resultados["4. Envio"] = resultado4
     except Exception as e:
         resultados["4. Envio"] = f"Error: {str(e)}"
-
+    """
     return resultados
